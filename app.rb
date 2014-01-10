@@ -14,7 +14,7 @@ end
 
 get '/issues.json' do
   content_type :json
-  open('http://beta.shirasete.jp/issues.json?project_id=14&sort=updated_on:desc&offset=0&limit=100').read
+  open('http://beta.shirasete.jp/issues.json?project_id=21&sort=updated_on:desc&offset=0&limit=100').read
 end
 
 get '/issues/:id.json' do
